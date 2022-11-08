@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    display: block;
+    background-color: #BFD9D6;
+}
+
+.hideme{
+    display: none;
+}
+
+#header{
+    text-align: center;
+    background-color: #186A3B;
+}
+
+#leftColumn{
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+#leftMenu, #loginBox, #registerBox{
+    padding-bottom: 20px;
+
+}
+
+#centerColumn{
+    width: 850px;
+    float: left;
+    padding: 15px;
+}
+
+#footer{
+    clear: both;
+}
+
+.menuCaption{
+    padding: 3px;
+    font-weight: bold;
+}
+
+.cartBox{
+    padding: 5px 0 5px 0;
+}
+
+.showHidden{
+    text-decoration: underline;
+    color: indigo;
+    cursor: pointer;
+}
+
+#registerBoxHidden{
+    display: none;
+}
+
+a{
+    color: #D94D1A;
+    text-decoration: none;
+}
+a:hover{
+    color: #F26D6D;
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    color: #eeeeee;
+}
+
+
+
+
+

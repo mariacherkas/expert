@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="/www/templates/default//css/main.css" type="text/css">
+  <style>
+    TABLE {
+      width: 300px; /* Ширина таблицы */
+      border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    }
+    TD, TH {
+      padding: 3px; /* Поля вокруг содержимого таблицы */
+      border: 1px solid black; /* Параметры рамки */
+    }
+    TH {
+      background: #b0e0e6; /* Цвет фона */
+    }
+  </style>
+  <script type="text/javascript" src="../../www/js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="../../www/js/main.js"></script>
+</head>
+
+<body>
+
+<header id="header">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Expert - Internet Shop</a>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/?controller=user&action=regestration">Regestration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/?controller=user&action=authorization">Authorization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/?controller=index&action=aboutus">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+            <div class="dropdown-menu">
+              <a href="/?controller=category&id=1"  class="dropdown-item">Phones</a>
+              <a href="/?controller=category&id=3"  class="dropdown-item">Phones Samsung</a>
+              <a href="/?controller=category&id=4"  class="dropdown-item">Phones Apple</a>
+              <a href="/?controller=category&id=2"  class="dropdown-item">Laptop</a>
+              <a href="/?controller=category&id=5"  class="dropdown-item">Laptop Samsung</a>
+              <a href="/?controller=category&id=6"  class="dropdown-item">Laptop Apple</a>
+              <a href="/?controller=category&id=7"  class="dropdown-item">Laptop Asus</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/?controller=card">Basket <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 3 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+            </svg></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<main  class="d-flex h-100 py-3 my-4">
+  <div class="container">
+    <div id="leftColumn">
+      <div id="leftMenu">
+        <div class="menuCaption">
+          Menu
+        </div>
+        <a href="?controller=index&count=0">All products</a><br>
+        <a href="/?controller=category&id=1">Phones</a><br>
+        -<a href="/?controller=category&id=3">Phones Samsung</a><br>
+        -<a href="/?controller=category&id=4">Phones Apple</a><br>
+        <a href="/?controller=category&id=2">Laptop</a><br>
+        -<a href="/?controller=category&id=5">Laptop Samsung</a><br>
+        -<a href="/?controller=category&id=6">Laptop Apple</a><br>
+        -<a href="/?controller=category&id=7">Laptop Asus</a><br>
+      </div>
+
+
+      <div id="userBox" class="hideme">
+        <a href="#" id="userLink"></a><br>
+        <a href="/?controller=user&action=logout">Logout</a>
+      </div>
+
+      <div id="loginBox">
+        <div class="menuCaption">Authorization</div>
+        <label for="loginEmail" class="form-label">Login(email)</label>
+        <input type="text" id="loginEmail" name="loginEmail" value=""><br>
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <label for="loginPwd" class="form-label">Password</label>
+        <input type="password" id="loginPwd" name="loginPwd" value=""><br>
+        <input type="button" onclick="login();" value="Login" class="btn btn-primary">
+      </div>
+
+      <div id="registerBox">
+        <div class="menuCaption showHidden" onclick="showRegisterBox();">Registration</div>
+        <div id="registerBoxHidden">
+          <label for="email">email: <br></label>
+          <input type="text" id="email" name="email" value="" ><br>
+          <label for="pwd1">password:<br></label>
+          <input type="password" id="pwd1" name="pwd1" value=""><br>
+          <label for="pwd2">password again:<br></label>
+          <input type="password" id="pwd2" name="pwd2" value=""><br>
+          <input type="button" onclick="registerNewUser();" value="Regestration">
+        </div>
+      </div>
+      <div class="menuCaption">Basket</div>
+      <a href="/?controller=card">In Basket</a>
+      <span id="cartCntItems">
+        Nothing    </span>
+    </div>
+
+
+    <div id="centerColumn"><!--шаблон главной страницы-->
+    <div style="float: left; padding: 0 30px 40px 0">
+      <a href="/?controller=product&id=12/">
+        <img src="../../www/images/products/12.png" width="100px" alt="">
+      </a><br>
+      <a href="/?controller=product&id=12/">iPhone 4S</a>
+    </div>
+    <div style="float: left; padding: 0 30px 40px 0">
+      <a href="/?controller=product&id=11/">
+        <img src="../../www/images/products/11.png" width="100px" alt="">
+      </a><br>
+      <a href="/?controller=product&id=11/">iPhone 3GS</a>
+    </div>
+    <div style="float: left; padding: 0 30px 40px 0">
+      <a href="/?controller=product&id=8/">
+        <img src="../../www/images/products/8.png" width="100px" alt="">
+      </a><br>
+      <a href="/?controller=product&id=8/">I8350 Omnia W</a>
+    </div>
+    <div style="clear:both;"></div>
+    <div style="float: left; padding: 0 30px 40px 0">
+      <a href="/?controller=product&id=7/">
+        <img src="../../www/images/products/7.png" width="100px" alt="">
+      </a><br>
+      <a href="/?controller=product&id=7/">I9001 Galaxy S Plus</a>
+    </div>
+    <div style="float: left; padding: 0 30px 40px 0">
+      <a href="/?controller=product&id=6/">
+        <img src="../../www/images/products/6.png" width="100px" alt="">
+      </a><br>
+      <a href="/?controller=product&id=6/">S5380 La Fleur Wave Y</a>
+    </div>
+
+
+      <div style="clear:both;"></div>
+      <div style="text-align: center">
+        <a href="/?controller=index&count=0">1</a>
+        <a href="/?controller=index&count=1">2</a>
+      </div>
+  </div>
+
+  </div>
+</main>
+<footer class="py-3 my-4">
+  <div class="container">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="/?controller=index&action=aboutus" class="nav-link px-2 text-muted">About us</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2022 Mariia Cherkas</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

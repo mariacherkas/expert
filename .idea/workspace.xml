@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65634371-5c10-4466-8ead-3e7352f9d71a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="expert" id="fe59943f-029c-439d-9d8a-f2f07ecdd5ec" name="expert" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\OpenServer\domains\expert" selected_validation_type="LOCAL" web_path_to_validation_script="http://expert/" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2AZSdOlJuVutdXIB9HqPF7CJFpq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Constants&quot;: &quot;false&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OpenServer/domains/expert&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php.debug&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\expert" />
+      <recent name="C:\OpenServer\domains\expert\www" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65634371-5c10-4466-8ead-3e7352f9d71a" name="Changes" comment="" />
+      <created>1655215700969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655215700969</updated>
+      <workItem from="1655215702494" duration="15242000" />
+      <workItem from="1655651608403" duration="4523000" />
+      <workItem from="1655726307659" duration="9500000" />
+      <workItem from="1655811868210" duration="19752000" />
+      <workItem from="1655978115699" duration="3474000" />
+      <workItem from="1655981686913" duration="98000" />
+      <workItem from="1655982007162" duration="2082000" />
+      <workItem from="1656001509944" duration="1025000" />
+      <workItem from="1656004381251" duration="21916000" />
+      <workItem from="1656353086822" duration="808000" />
+      <workItem from="1657468178379" duration="9003000" />
+      <workItem from="1659469834484" duration="2878000" />
+      <workItem from="1659890417662" duration="4582000" />
+      <workItem from="1660074126365" duration="1277000" />
+      <workItem from="1660075797009" duration="3156000" />
+      <workItem from="1660141262032" duration="6467000" />
+      <workItem from="1660227563105" duration="13577000" />
+      <workItem from="1660249459472" duration="2791000" />
+      <workItem from="1660394890157" duration="2962000" />
+      <workItem from="1660491840459" duration="8368000" />
+      <workItem from="1660568000700" duration="11297000" />
+      <workItem from="1660591972366" duration="1660000" />
+      <workItem from="1660672081516" duration="11150000" />
+      <workItem from="1660812344963" duration="7217000" />
+      <workItem from="1660894300173" duration="6192000" />
+      <workItem from="1661076854226" duration="4498000" />
+      <workItem from="1662128189720" duration="7320000" />
+      <workItem from="1662307631382" duration="6352000" />
+      <workItem from="1662377638997" duration="1019000" />
+      <workItem from="1662575911993" duration="4456000" />
+      <workItem from="1662636500061" duration="15083000" />
+      <workItem from="1662825145472" duration="10551000" />
+      <workItem from="1663236049562" duration="2017000" />
+      <workItem from="1663351758336" duration="7486000" />
+      <workItem from="1663420536021" duration="5207000" />
+      <workItem from="1663432010857" duration="510000" />
+      <workItem from="1663510538718" duration="8843000" />
+      <workItem from="1663586216690" duration="13260000" />
+      <workItem from="1663693803103" duration="1508000" />
+      <workItem from="1663753495043" duration="11102000" />
+      <workItem from="1663856001137" duration="6070000" />
+      <workItem from="1663943763531" duration="3956000" />
+      <workItem from="1664015909766" duration="5878000" />
+      <workItem from="1664105481760" duration="9101000" />
+      <workItem from="1664190922060" duration="6886000" />
+      <workItem from="1664308332420" duration="5034000" />
+      <workItem from="1664364576497" duration="1455000" />
+      <workItem from="1664983137663" duration="12728000" />
+      <workItem from="1665060425824" duration="15577000" />
+      <workItem from="1665147946538" duration="6601000" />
+      <workItem from="1665224572850" duration="15538000" />
+      <workItem from="1665311579784" duration="24148000" />
+      <workItem from="1665405066353" duration="9376000" />
+      <workItem from="1665494529261" duration="8130000" />
+      <workItem from="1665564945415" duration="17880000" />
+      <workItem from="1665654887281" duration="21983000" />
+      <workItem from="1665751313457" duration="2320000" />
+      <workItem from="1665768654315" duration="1741000" />
+      <workItem from="1666202710640" duration="674000" />
+      <workItem from="1666204392698" duration="6477000" />
+      <workItem from="1666285893340" duration="10466000" />
+      <workItem from="1666381719389" duration="2839000" />
+      <workItem from="1666725156617" duration="3338000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tmp/templates_c/4efe4c5e380f0a114d39550a6bc60d3e7b96ae12_0.file.leftcolumn.tpl.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
