@@ -1,0 +1,3 @@
+AddDefaultCharset utf8
+AddType application/x-httpsd-php .html .htm
+AddHandler application/x-httpsd-php .php .htm .html
