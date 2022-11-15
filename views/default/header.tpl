@@ -69,7 +69,6 @@
             </div>
         </div>
     </nav>
-    </div>
 </header>
 
 <main class="d-flex h-100 py-3 my-4">
