@@ -40,7 +40,7 @@
 
     <b>Ausbildung:</b> Schulabschluss in der Ukraine<br>
     <b>Sprachen:</b> Ukrainisch (Muttersprache), Russisch (Muttersprache), Englisch (B1-B2) und Deutsch (A1)<br>
-    <b>Programmiersprachen und -technologien:</b> PHP, C++, SQL and Javascript, HTML, CSS, JQuery, Smarty.<br>
+    <b>Programmiersprachen und -technologien:</b> PHP, C++, SQL and Javascript, HTML, Bootstrap, CSS, JQuery, Smarty.<br>
     <b>Zertifizierungen:</b> Sololern<br>
     <b>Hobbys:</b> Klavier (ich habe eine Musikschule in Berdyansk, Ukraine, absolviert), Wandern (ich habe alle höchsten Berge der Ukraine bestiegen), Gesellschaftstanz
     <br><br>

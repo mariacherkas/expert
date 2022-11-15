@@ -41,7 +41,7 @@
 
     <b>Education:</b> Graduated from school in Ukraine.<br>
     <b>Languages:</b> Ukrainian(native), Russian(native), English(B1-B2) and German(A1).<br>
-    <b>Programming languages and technologies:</b> PHP, C++, SQL and Javascript, HTML, CSS, JQuery, Smarty.<br>
+    <b>Programming languages and technologies:</b> PHP, C++, SQL and Javascript, HTML, Bootstrap, CSS, JQuery, Smarty.<br>
     <b>Certificates:</b> Sololern<br>
     <b>Hobbies:</b> piano (I graduated from a music school in Berdyansk, Ukraine), hiking (conquered all the highest
     mountains of Ukraine), ballroom dancing
