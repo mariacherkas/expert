@@ -14,7 +14,7 @@
 <body>
 
 <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #597355;">
+ <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #597355;"> 
         <div class="container">
             <a class="navbar-brand" href="#">Expert - Internet Shop</a>
             <div class="collapse navbar-collapse" id="navbarColor02">

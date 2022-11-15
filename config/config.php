@@ -9,7 +9,7 @@ define("TEMPLATE_PREFIX", __DIR__ . "/../views/{$template}");
 define("TEMPLATE_ADMIN_PREFIX", __DIR__ . "/../views/{$templateAdmin}");
 define("TEMPLATE_POSTFIX", ".tpl");
 //пути в веб пространстве
-define("TEMPLATE_WEB_PATH", "/www/templates/{$template}/");
+define("TEMPLATE_WEB_PATH", "/www/templates/{$template}");
 define("TEMPLATE_ADMIN_WEB_PATH", "/www/templates/{$templateAdmin}");
 
 //include_once __DIR__ . "/../vendor/";
