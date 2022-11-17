@@ -1,7 +1,8 @@
 {if isset($arUser)}
 <h3 style="text-align: center">Registration was successful</h3>
 {else}
-    <div class="col-md-7 col-lg-8" >
+    <div class="col-md-12 col-lg-12" >
+        <div class="card">
         <h4 class="mb-3">Registration</h4>
         <form class="needs-validation" novalidate id="registerBox">
             <div class="row g-3">
@@ -36,10 +37,10 @@
                     <label for="pwd2" class="form-label">Password again</label>
                     <input type="password" id="pwd2" name="pwd2" value="" class="form-control">
                 </div>
-
             </div>
             <br>
             <input type="button" onclick="registerNewUser();" value="Regestration" class="w-100 btn btn-primary btn-lg" style="background-color: #F29D52; border: 0px">
         </form>
+        </div>
     </div>
 {/if}

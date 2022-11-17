@@ -74,10 +74,11 @@
 </nav>
 </header>
 
-<main class="d-flex h-100 my-4" style="">
-    <div class="container-fluid" style="">
+<main class="d-flex h-100 my-4">
+    <div class="container-fluid">
     <div class="row">
         {include file='leftcolumn.tpl'}
         <div class="col">
         <div class="container">
-        <div id="centerColumn" class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+        <div id="centerColumn">
+

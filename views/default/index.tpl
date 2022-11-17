@@ -1,7 +1,9 @@
 <!--шаблон главной страницы-->
+<div  class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+
 {foreach $rsProducts as $item name=products}
 <div class="col d-flex mb-2 align-item-stretch">
-    <div class="card product" style="width: 18rem;">
+    <div class="card" style="width: 18rem;">
         <a href="/?controller=product&id={$item['id']}/" style="margin: 10px 0px 0px 20px">
             <img src="/www/images/products/{$item['image']}" height="200px" width="150px" alt="">
         </a><br>
@@ -14,4 +16,6 @@
 </div>    
 
 {/foreach}
+
+</div>
 

@@ -1,3 +1,4 @@
+
 body{
     padding: 0;
     display: block;
@@ -17,12 +18,23 @@ body{
     #leftColumn {
         display: none;
     }
-}
-
-@media (min-width: 768px){
-    .product {
+    .hidecol{
+        display: none;
+    }
+    .showrow{
+        display: inline-block;
+    }
+    .hiderow{
+        display: none;
     }
 }
+
+@media (min-width: 768px) {
+    .showrow{
+        display: none;
+    }
+}
+
 
 #leftMenu, #loginBox, #registerBox{
     padding-bottom: 20px;

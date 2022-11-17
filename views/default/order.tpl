@@ -1,47 +1,46 @@
 {*order page*}
+<div class="row">
 <h2>Order's data</h2>
 <form id="frmOrder" action="/?controller=card&action=saveorder" method="post">
-    <table class="table" style="width: 700px">
-        <tr style="">
-            <td>№</td>
-            <td>Name</td>
-            <td>Amount</td>
-            <td>Per 1 item</td>
-            <td>Price</td>
-        </tr>
-
+    <div class="row">
+            <div class="col-1 hidecol">№</div>
+            <div class="col" style="width: 10rem">Name</div>
+            <div class="col">Qty</div>
+            <div class="col hidecol">Per 1 item</div>
+            <div class="col">Price</div>
+    </div>
+                            <hr style="margin-top: 10px">
         {foreach $rsProducts as $item name=products}
-            <tr>
-                <td>{$smarty.foreach.products.iteration}</td>
-                <td><a href="/?controller=product&id={$item['id']}">{$item['name']}</a></td>
-                <td>
+    <div class="row">
+                <div class="col-1 hidecol">{$smarty.foreach.products.iteration}</div>
+                <div class="col"  style="width: 10rem"><a href="/?controller=product&id={$item['id']}">{$item['name']}</a></div>
+                <div class="col">
                 <span id="itemCnt_{$item['id']}">
                     <input type="hidden" name="itemCnt_{$item['id']}" value="{$item['cnt']}">
                     {$item['cnt']}
                 </span>
-                </td>
-                <td>
+                </div>
+                <div class="col hidecol">
                 <span id="itemPrice_{$item['id']}">
                     <input type="hidden" name="itemPrice_{$item['id']}" value="{$item['price']}">
                     {$item['price']}€
                 </span>
-                </td>
-                <td>
+                </div>
+                <div class="col">
                 <span id="itemRealPrice_{$item['id']}">
                     <input type="hidden" name="itemRealPrice_{$item['id']}" value="{$item['realPrice']}">
                     {$item['realPrice']}€
                 </span>
-
-                </td>
-            </tr>
+                </div>
+    </div>
+                            <hr style="margin-top: 10px">
         {/foreach}
-                    <tr>
-                        <td colspan="5" style="text-align: right">
+    <div class="row">
+                        <div style="text-align: right">
                             <h4>Subtotal: <span id='totalPrice' value="{$totalPrice}" style='color: #D94D1A'>{$totalPrice}€</span></h4>
-                        </td>
-                    </tr>
+                        </div>
+    </div>
 
-    </table>
 
     {if isset($arUser)}
         {$buttonClass = "class='btn'"}
@@ -50,7 +49,7 @@
             {$name = $arUser['name']}
             {$phone = $arUser['phone']}
             {$adress = $arUser['adress']}
-            <table class="table" style="width: 500px">
+            <table class="table" style="">
                 <tr>
                     <td>Name</td>
                     <td><input type="text" id="name" name="name" value="{$name}"></td>
@@ -66,10 +65,13 @@
             </table>
         </div>
     {else}
+
         <h3>You need to log into your account</h3>
-        <div style="margin-top: 30px">
-            <div id="registerBox" class="card" style="display: inline-block; width: 15rem">
-                <div class="card-body">
+
+        <div class="row">
+            <div class="col-auto">
+                <div id="registerBox" class="card" style="display: inline-block; width: 15rem">
+                    <div class="card-body">
                     <div class="menuCaption">Registration</div>
 
                     <div class="form-floating">
@@ -116,9 +118,12 @@
                 </div>
 
             </div>
+        </div>
 
+        <div class="col-auto">
             <div style="display: inline-block; vertical-align: top; margin: 10px"><b> OR </b></div>
-
+        </div>
+        <div class="col">
             <div id="loginBox" class="card"
                  style="width: 15rem; padding: 0px; margin-bottom: 10px; display: inline-block; vertical-align: top">
                 <div class="card-body">
@@ -139,10 +144,12 @@
             </div>
         </div>
         {$buttonClass = "class='hideme bth'"}
-
+    </div>
     {/if}
 
     <input {$buttonClass} id="btnSaveOrder" type="button" value="Make an order" onclick="saveOrder();"
                           style="background-color: #F29D52; border: 0px">
 
 </form>
+
+</div>

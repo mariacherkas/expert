@@ -1,10 +1,10 @@
 {*страница продукта*}
-<table style="margin-right: 20px">
-    <td style="vertical-align: top">
+<div class="col-lg-12" style="margin-right: 20px">
+    <div class="col" style="vertical-align: top">
         <img src="../../www/images/products/{$rsProduct['image']}" width="300px" height="400px"
              style="float: left; margin-right: 30px;"><br>
-    </td>
-    <td>
+    </div>
+    <div class="col">
         <b style="font-size: x-large">{$rsProduct['name']}</b><br>
 
         <p class="display-6" style="font-size: x-large;">Cost: <b style="color: #D94D1A">{$rsProduct['price']}€</b></p>
@@ -22,6 +22,5 @@
         <br>
         <b style="font-size: x-large">About this item:</b> <br>
         <p style="font-size: large">{$rsProduct['description']}</p>
-        </table>
-    </td>
-</table>
+    </div>
+</div>

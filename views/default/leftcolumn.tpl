@@ -3,7 +3,7 @@
     {*меню слева, вывод категорий товаров*}
 
     <div id="leftMenu" class="card" style=" padding: 0px; margin-bottom: 10px">
-        <div class="menuCaption card-header" style="padding: 10px 0px 10px 15px">
+        <div class="menuCaption card-header" style="padding: 10px 0px 10px 15px; width: 15rem">
             Menu
         </div>
         <ul class="list-group list-group-flush">
@@ -68,23 +68,23 @@
 
                         <div class="form-floating">
                             <input type="email" class="form-control" id="email" name="email" value=""
-                                   placeholder="name@example.com">
+                                   placeholder="name@example.com" style="width: 13rem">
                             <label for="email">Email address</label>
                         </div>
                         <div class="form-floating">
                             <input type="password" class="form-control" id="pwd1" name="pwd1" value=""
-                                   placeholder="Password">
+                                   placeholder="Password" style="width: 13rem">
                             <label for="pwd1">Password</label>
                         </div>
                         <div class="form-floating">
                             <input type="password" class="form-control" id="pwd2" name="pwd2" value=""
-                                   placeholder="Password">
+                                   placeholder="Password" style="width: 13rem">
                             <label for="pwd2">Password</label>
                         </div>
                         <input type="button" onclick="registerNewUser();" value="Registration"
                                class=" btn btn-lg btn-primary" style="background-color: #F29D52; border: 0px"
                         >
-
+                        <br>
                         <a href="/?controller=user&action=registration">Full registration</a>
                     </div>
                 </div>

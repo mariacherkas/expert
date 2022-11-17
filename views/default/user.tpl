@@ -1,40 +1,50 @@
 {*user`s page*}
-
+<div class="row">
 <h1>Your data</h1>
-<table class="table" style="width: 500px">
-    <tr>
-        <td>Login(email)</td>
-        <td>{$arUser['email']}</td>
-    </tr>
-    <tr>
-        <td>Name</td>
-        <td><input type="text" id="newName" value="{$arUser['name']}"></td>
-    </tr>
-    <tr>
-        <td>Phone</td>
-        <td><input type="text" id="newPhone" value="{$arUser['phone']}"></td>
-    </tr>
-    <tr>
-        <td>Address</td>
-        <td><textarea id="newAdress">{$arUser['adress']}</textarea></td>
-    </tr>
-    <tr>
-        <td>New password</td>
-        <td><input type="password" id="newPwd1" value=""></td>
-    </tr>
-    <tr>
-        <td>New password again</td>
-        <td><input type="password" id="newPwd2" value=""></td>
-    </tr>
-    <tr>
-        <td>Please enter your old password to save your data</td>
-        <td><input type="password" id="curPwd" value=""></td>
-    </tr>
+<div class="row">
 
-</table>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col"><b>Login(email)</b></div>
+        <div class="col">{$arUser['email']}</div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col"><b>Name</b></div>
+        <div class="col"><input type="text" id="newName" value="{$arUser['name']}"></div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col"><b>Phone</b></div>
+        <div class="col"><input type="text" id="newPhone" value="{$arUser['phone']}"></div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col"><b>Address</b></div>
+        <div class="col"><textarea id="newAdress">{$arUser['adress']}</textarea></div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col"><b>New password</b></div>
+        <div class="col"><input type="password" id="newPwd1" value=""></div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col"><b>New password again</b></div>
+        <div class="col"><input type="password" id="newPwd2" value=""></div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col"><b>Your current password<br>(to save your data)</b></div>
+        <div class="col"><input type="password" id="curPwd" value=""></div>
+    </div>
 
-<input type="button" class="btn" value="Save" onclick="updateUserData();" style="background-color: #F29D52; border: 0px; margin-left: 280px; width: 180px">
+    <div class="row row-cols-1 row-cols-md-2" >
+    
+        <div class="col"></div>
+            <div class="col">
+<input type="button" class="btn" value="Save" onclick="updateUserData();" style="background-color: #F29D52; border: 0px; width: 180px">
+    </div>
+    </div>
+</div>
 
+
+<div class="showrow"><br> *If you want to see all your orders please log into your account from the computer </div>
+
+<div class="hiderow">
 <h2>Orders</h2>
 {if ! $rsUserOrders}
     Nothing here
@@ -93,3 +103,7 @@
         {/foreach}
     </table>
 {/if}
+
+</div>
+
+</div>
