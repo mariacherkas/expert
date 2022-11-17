@@ -14,15 +14,18 @@
 <body>
 
 <header id="header">
- <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #597355;"> 
-        <div class="container">
-            <a class="navbar-brand" href="#">Expert - Internet Shop</a>
-            <div class="collapse navbar-collapse" id="navbarColor02">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item dropdown">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #597355;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Expert - Internet shop</a>
+    <button class="navbar-toggler" type="button" style="background: #F29D52" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown" style="">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                            aria-haspopup="true" aria-expanded="false">Products</a>
-                        <div class="dropdown-menu">
+                        <div class="dropdown-menu" style="width: 200px;">
                             <a href="/?controller=index&count=0"
                                class="dropdown-item">All products</a>
                             {foreach $rsCategories as $item}
@@ -61,18 +64,20 @@
                             </svg>
                         </a>
                     </li>
-                </ul>
-                <form class="d-flex" id="search">
-                    <input class="form-control me-sm-2"  type="text" name="search" placeholder="Search">
-                    <input class="btn btn-secondary my-2 my-sm-0" type="button" onclick="search1();" value="Search" style="background-color: #F29D52;">
-                </form>
-            </div>
-        </div>
-    </nav>
+      </ul>
+      <form class="d-flex"  id="search">
+        <input class="form-control me-sm-2" type="search" placeholder="Search" name="search" aria-label="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="button" onclick="search1();" value="Search" style="background-color: #F29D52;">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 </header>
 
-<main class="d-flex h-100 py-3 my-4">
-    <div class="container">
+<main class="d-flex h-100 my-4" style="">
+    <div class="container-fluid" style="">
+    <div class="row">
         {include file='leftcolumn.tpl'}
-        <div class="card">
-        <div id="centerColumn" class="card-body">
+        <div class="col">
+        <div class="container">
+        <div id="centerColumn" class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">

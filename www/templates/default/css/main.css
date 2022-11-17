@@ -8,15 +8,20 @@ body{
     display: none;
 }
 
-#header{
-    text-align: center;
-    background-color: #186A3B;
-}
-
 #leftColumn{
-    width: 250px;
     float: left;
     margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    #leftColumn {
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+    .product {
+    }
 }
 
 #leftMenu, #loginBox, #registerBox{
@@ -25,9 +30,11 @@ body{
 }
 
 #centerColumn{
-    width: 850px;
     float: left;
     padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0px;
 }
 
 #footer{

@@ -1,5 +1,6 @@
 {if $rsProducts}
     <h3>Found by your search:</h3>
+    <br>
     {foreach $rsProducts as $item name=products}
         <div class="card" style="float: left; width: 15rem; height: 25rem;">
             <a href="/?controller=product&id={$item['id']}/" style="margin: 10px 0px 0px 20px">

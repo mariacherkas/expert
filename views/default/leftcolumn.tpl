@@ -1,7 +1,8 @@
+<div class="col-auto">
 <div id="leftColumn">
     {*меню слева, вывод категорий товаров*}
 
-    <div id="leftMenu" class="card" style="width: 15rem; padding: 0px; margin-bottom: 10px">
+    <div id="leftMenu" class="card" style=" padding: 0px; margin-bottom: 10px">
         <div class="menuCaption card-header" style="padding: 10px 0px 10px 15px">
             Menu
         </div>
@@ -22,7 +23,7 @@
     </div>
 
     {if isset($arUser)}
-        <div id="userBox" class="card" style="width: 15rem; padding: 0px; margin-bottom: 10px">
+        <div id="userBox" class="card" style="padding: 0px; margin-bottom: 10px">
             <div class="card-body">
                 <a href="/?controller=user" id="userLink">{$arUser['displayName']}</a><br>
                 <a href="/?controller=user&action=logout">Logout</a>
@@ -31,7 +32,7 @@
     {else}
 
         {*Поле с ником пользователя и с возможностью выйти из аккаунта, скрыта до того момента, пока пользователь работает без входа в аккаунт*}
-        <div id="userBox" class="hideme card" style="width: 15rem; padding: 0px; margin-bottom: 10px">
+        <div id="userBox" class="hideme card" style="padding: 0px; margin-bottom: 10px">
             <div class="card-body">
                 <a href="#" id="userLink"></a><br>
                 <a href="/?controller=user&action=logout">Logout</a>
@@ -40,7 +41,7 @@
         {*Поле с авторизацией уже зарегестрированного пользователя, скрыто если пользователь уже вошел в аккаунт*}
 
         {if ! isset($hideLoginBox)}
-            <div id="loginBox" class="card" style="width: 15rem; padding: 0px; margin-bottom: 10px;;">
+            <div id="loginBox" class="card" style=" padding: 0px; margin-bottom: 10px;;">
                 <div class="card-body">
                     <div class="menuCaption">Please sign in</div>
                     <div class="form-floating">
@@ -58,7 +59,7 @@
                 </div>
             </div>
             {*Поле с регистрацией пользователя, скрыто, пока не нажмешь на ссылку регстрации или если уже зашел в свой аккаунт*}
-            <div id="registerBox" class="card" style="width: 15rem; padding: 0px; margin-bottom: 10px">
+            <div id="registerBox" class="card" style=" padding: 0px; margin-bottom: 10px">
                 <div class="card-body">
                     <div class="menuCaption showHidden" onclick="showRegisterBox();" style="color: #D94D1A">
                         Registration
@@ -81,7 +82,7 @@
                             <label for="pwd2">Password</label>
                         </div>
                         <input type="button" onclick="registerNewUser();" value="Registration"
-                               class="w-100 btn btn-lg btn-primary" style="background-color: #F29D52; border: 0px"
+                               class=" btn btn-lg btn-primary" style="background-color: #F29D52; border: 0px"
                         >
 
                         <a href="/?controller=user&action=registration">Full registration</a>
@@ -91,7 +92,7 @@
         {/if}
     {/if}
     {*Корзина с счетчиком товаров в корзине*}
-    <div class="card" style="width: 15rem; padding: 0px; margin-bottom: 10px">
+    <div class="card" style=" padding: 0px; margin-bottom: 10px">
         <div class="card-body">
             <div class="menuCaption">Basket</div>
             <b><a href="/?controller=card">In Basket</a></b>
@@ -101,4 +102,5 @@
     </span>
         </div>
     </div>
+</div>
 </div>

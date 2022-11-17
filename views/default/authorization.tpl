@@ -1,7 +1,7 @@
 {if isset($arUser)}
     <h3 style="text-align: center">Authorization was successful</h3>
 {else}
-    <div id="loginBox" class="card" style="width: 20rem; padding: 0px; margin-bottom: 10px; left: 25%;">
+    <div id="loginBox" class="card" style=" padding: 0px; margin-bottom: 10px; left: 25%;">
         <div class="card-body">
             <h1 class="h3 mb-3 fw-normal" style="text-align: center">Please sign in</h1>
 
